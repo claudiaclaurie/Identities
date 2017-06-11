@@ -19,6 +19,8 @@
 		5BE6C2EE1EECCCEA00915313 /* SwipePageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6C2EC1EECCA9B00915313 /* SwipePageCollectionViewController.swift */; };
 		5BE6C2EF1EECCCEB00915313 /* SwipePageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6C2EC1EECCA9B00915313 /* SwipePageCollectionViewController.swift */; };
 		5BE6C2F21EECD22900915313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE6C2F11EECD22900915313 /* Main.storyboard */; };
+		5BE6C2F31EEDDD9900915313 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6C2E61EEC8E3E00915313 /* HomeViewController.swift */; };
+		5BE6C2F41EEDDD9900915313 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6C2E61EEC8E3E00915313 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -293,6 +295,7 @@
 			files = (
 				5BE6C2EE1EECCCEA00915313 /* SwipePageCollectionViewController.swift in Sources */,
 				5BAF44381EEC8A60007ACBCB /* IdentitiesTests.swift in Sources */,
+				5BE6C2F31EEDDD9900915313 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +305,7 @@
 			files = (
 				5BE6C2EF1EECCCEB00915313 /* SwipePageCollectionViewController.swift in Sources */,
 				5BAF44431EEC8A60007ACBCB /* IdentitiesUITests.swift in Sources */,
+				5BE6C2F41EEDDD9900915313 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

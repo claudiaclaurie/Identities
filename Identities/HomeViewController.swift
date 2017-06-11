@@ -45,11 +45,11 @@ class HomeViewController: UIViewController {
         self.enterButton.layer.cornerRadius = 6
         // Add buttons to the screen.
         self.view.addSubview(self.enterButton)
-        // Possition the buttons.
+             //@objc     // Possition the buttons.
                 self.enterButton.frame = CGRect(x:view.bounds.width / 2 - 115, y:view.bounds.width / 2 + 300, width:225, height:50)
        // womensButton.frame =  CGRectMake(view.bounds.width / 2 - 115 , view.bounds.width / 2, 225, 50)
         // Button actions.
-        //        self.enterButton.addTarget(self, action: #selector(ContentViewController.enterButtonPressed), forControlEvents: UIControlEvents.TouchUpInside)
+        self.enterButton.addTarget(self, action: #selector(enterButtonPressed), for: .touchUpInside)
         //self.womensButton.addTarget(self, action: #selector(SGViewController.womensButtonPressed), forControlEvents: UIControlEvents.TouchUpInside)
         // Button styles.
         //        self.mensButton.backgroundColor = UIColor.lightGrayColor()
@@ -86,18 +86,12 @@ class HomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    /*
-    func mensButtonPressed() {
-        let newViewController = CategoriesTableViewController(womens:false)
-        self.navigationController?.pushViewController(newViewController, animated: true)
-    }
-    func womensButtonPressed() {
-        let newViewController = CategoriesTableViewController(womens:true)
+    
+    func enterButtonPressed() {
+        let newViewController = SwipePageCollectionViewController(nibName: "SwipePageCollectionViewController", bundle:nil)
         self.navigationController?.pushViewController(newViewController, animated: true)
         
     }
-     */
-    
     
     
 }
