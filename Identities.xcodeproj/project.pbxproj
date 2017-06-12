@@ -22,6 +22,9 @@
 		5BE6C2F61EEE145E00915313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF44221EEC8A60007ACBCB /* AppDelegate.swift */; };
 		5BE6C2F91EEE155200915313 /* PageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6C2F71EEE155200915313 /* PageCollectionViewController.swift */; };
 		5BE6C2FA1EEE155200915313 /* PageCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BE6C2F81EEE155200915313 /* PageCollectionViewController.xib */; };
+		5BE6C3001EEEFD9E00915313 /* EZSwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6C2FF1EEEFD9E00915313 /* EZSwipeController.swift */; };
+		5BE6C3011EEEFD9E00915313 /* EZSwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6C2FF1EEEFD9E00915313 /* EZSwipeController.swift */; };
+		5BE6C3021EEEFD9E00915313 /* EZSwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6C2FF1EEEFD9E00915313 /* EZSwipeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,7 @@
 		5BE6C2F11EECD22900915313 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5BE6C2F71EEE155200915313 /* PageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCollectionViewController.swift; sourceTree = "<group>"; };
 		5BE6C2F81EEE155200915313 /* PageCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageCollectionViewController.xib; sourceTree = "<group>"; };
+		5BE6C2FF1EEEFD9E00915313 /* EZSwipeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EZSwipeController.swift; path = ../../EZSwipeController/EZSwipeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 				5BAF44241EEC8A60007ACBCB /* ContentViewController.swift */,
 				5BE6C2E61EEC8E3E00915313 /* HomeViewController.swift */,
 				5BE6C2F71EEE155200915313 /* PageCollectionViewController.swift */,
+				5BE6C2FF1EEEFD9E00915313 /* EZSwipeController.swift */,
 				5BE6C2F81EEE155200915313 /* PageCollectionViewController.xib */,
 				5BE6C2F11EECD22900915313 /* Main.storyboard */,
 				5BAF442B1EEC8A60007ACBCB /* LaunchScreen.storyboard */,
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BE6C2F91EEE155200915313 /* PageCollectionViewController.swift in Sources */,
+				5BE6C3001EEEFD9E00915313 /* EZSwipeController.swift in Sources */,
 				5BAF44251EEC8A60007ACBCB /* ContentViewController.swift in Sources */,
 				5BE6C2E71EEC8E3E00915313 /* HomeViewController.swift in Sources */,
 				5BAF44231EEC8A60007ACBCB /* AppDelegate.swift in Sources */,
@@ -298,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BE6C2F51EEE145D00915313 /* AppDelegate.swift in Sources */,
+				5BE6C3011EEEFD9E00915313 /* EZSwipeController.swift in Sources */,
 				5BAF44381EEC8A60007ACBCB /* IdentitiesTests.swift in Sources */,
 				5BE6C2F31EEDDD9900915313 /* HomeViewController.swift in Sources */,
 			);
@@ -308,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BE6C2F61EEE145E00915313 /* AppDelegate.swift in Sources */,
+				5BE6C3021EEEFD9E00915313 /* EZSwipeController.swift in Sources */,
 				5BAF44431EEC8A60007ACBCB /* IdentitiesUITests.swift in Sources */,
 				5BE6C2F41EEDDD9900915313 /* HomeViewController.swift in Sources */,
 			);
