@@ -88,7 +88,7 @@ class HomeViewController: UIViewController {
     }
     
     func enterButtonPressed() {
-        let newViewController = SwipePageCollectionViewController(nibName: "SwipePageCollectionViewController", bundle:nil)
+        let newViewController = PageCollectionViewController(nibName: "PageCollectionViewController", bundle:nil)
         self.navigationController?.pushViewController(newViewController, animated: true)
         
     }
