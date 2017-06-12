@@ -88,9 +88,7 @@ class HomeViewController: UIViewController {
     }
     
     func enterButtonPressed() {
-        let newViewController = EZSwipeController()
-        self.navigationController?.pushViewController(newViewController, animated: true)
-        
+        present(MySwipeVC(), animated: true, completion: nil)
     }
     
     

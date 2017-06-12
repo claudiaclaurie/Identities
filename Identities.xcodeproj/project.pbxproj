@@ -25,6 +25,7 @@
 		5BE6C3001EEEFD9E00915313 /* EZSwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6C2FF1EEEFD9E00915313 /* EZSwipeController.swift */; };
 		5BE6C3011EEEFD9E00915313 /* EZSwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6C2FF1EEEFD9E00915313 /* EZSwipeController.swift */; };
 		5BE6C3021EEEFD9E00915313 /* EZSwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6C2FF1EEEFD9E00915313 /* EZSwipeController.swift */; };
+		5BE6C3071EEF087D00915313 /* EZSwipeController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 5BE6C2FF1EEEFD9E00915313 /* EZSwipeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE6C3071EEF087D00915313 /* EZSwipeController.swift in Resources */,
 				5BE6C2EB1EECA27900915313 /* hannah.mp4 in Resources */,
 				5BAF442D1EEC8A60007ACBCB /* LaunchScreen.storyboard in Resources */,
 				5BAF442A1EEC8A60007ACBCB /* Assets.xcassets in Resources */,
