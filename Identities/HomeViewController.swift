@@ -88,7 +88,7 @@ class HomeViewController: UIViewController {
     }
     
     func enterButtonPressed() {
-        present(MySwipeVC(), animated: true, completion: nil)
+        present(PageViewController(), animated: true, completion: nil)
     }
     
     
