@@ -22,6 +22,9 @@
 		5B5BDD1E1EF2F53D00EBFEE0 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD1D1EF2F53D00EBFEE0 /* ViewController3.swift */; };
 		5B5BDD1F1EF2F53D00EBFEE0 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD1D1EF2F53D00EBFEE0 /* ViewController3.swift */; };
 		5B5BDD201EF2F53D00EBFEE0 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD1D1EF2F53D00EBFEE0 /* ViewController3.swift */; };
+		5B5BDD221EF2F66D00EBFEE0 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD211EF2F66D00EBFEE0 /* ViewController4.swift */; };
+		5B5BDD231EF2F66D00EBFEE0 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD211EF2F66D00EBFEE0 /* ViewController4.swift */; };
+		5B5BDD241EF2F66D00EBFEE0 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD211EF2F66D00EBFEE0 /* ViewController4.swift */; };
 		5BAF44231EEC8A60007ACBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF44221EEC8A60007ACBCB /* AppDelegate.swift */; };
 		5BAF44251EEC8A60007ACBCB /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF44241EEC8A60007ACBCB /* ContentViewController.swift */; };
 		5BAF442A1EEC8A60007ACBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAF44291EEC8A60007ACBCB /* Assets.xcassets */; };
@@ -63,6 +66,7 @@
 		5B5BDD151EF2F53100EBFEE0 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController1.swift; path = ../../pageViewBlog/pageViewBlog/ViewController1.swift; sourceTree = "<group>"; };
 		5B5BDD191EF2F53800EBFEE0 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		5B5BDD1D1EF2F53D00EBFEE0 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		5B5BDD211EF2F66D00EBFEE0 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		5BAF441F1EEC8A60007ACBCB /* Identities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Identities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAF44221EEC8A60007ACBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BAF44241EEC8A60007ACBCB /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 				5B5BDD151EF2F53100EBFEE0 /* ViewController1.swift */,
 				5B5BDD191EF2F53800EBFEE0 /* ViewController2.swift */,
 				5B5BDD1D1EF2F53D00EBFEE0 /* ViewController3.swift */,
+				5B5BDD211EF2F66D00EBFEE0 /* ViewController4.swift */,
 				5BE6C2F11EECD22900915313 /* Main.storyboard */,
 				5BAF442B1EEC8A60007ACBCB /* LaunchScreen.storyboard */,
 				5BAF44501EEC8A83007ACBCB /* Supporting Files */,
@@ -318,6 +323,7 @@
 				5B5BDD1A1EF2F53800EBFEE0 /* ViewController2.swift in Sources */,
 				5B5BDD1E1EF2F53D00EBFEE0 /* ViewController3.swift in Sources */,
 				5BAF44251EEC8A60007ACBCB /* ContentViewController.swift in Sources */,
+				5B5BDD221EF2F66D00EBFEE0 /* ViewController4.swift in Sources */,
 				5B5BDD121EF2F52600EBFEE0 /* PageViewController.swift in Sources */,
 				5B5BDD161EF2F53100EBFEE0 /* ViewController1.swift in Sources */,
 				5BE6C2E71EEC8E3E00915313 /* HomeViewController.swift in Sources */,
@@ -332,6 +338,7 @@
 				5B5BDD1B1EF2F53800EBFEE0 /* ViewController2.swift in Sources */,
 				5B5BDD171EF2F53100EBFEE0 /* ViewController1.swift in Sources */,
 				5B5BDD1F1EF2F53D00EBFEE0 /* ViewController3.swift in Sources */,
+				5B5BDD231EF2F66D00EBFEE0 /* ViewController4.swift in Sources */,
 				5BE6C2F51EEE145D00915313 /* AppDelegate.swift in Sources */,
 				5B5BDD131EF2F52600EBFEE0 /* PageViewController.swift in Sources */,
 				5BAF44381EEC8A60007ACBCB /* IdentitiesTests.swift in Sources */,
@@ -346,6 +353,7 @@
 				5B5BDD1C1EF2F53800EBFEE0 /* ViewController2.swift in Sources */,
 				5B5BDD181EF2F53100EBFEE0 /* ViewController1.swift in Sources */,
 				5B5BDD201EF2F53D00EBFEE0 /* ViewController3.swift in Sources */,
+				5B5BDD241EF2F66D00EBFEE0 /* ViewController4.swift in Sources */,
 				5BE6C2F61EEE145E00915313 /* AppDelegate.swift in Sources */,
 				5B5BDD141EF2F52600EBFEE0 /* PageViewController.swift in Sources */,
 				5BAF44431EEC8A60007ACBCB /* IdentitiesUITests.swift in Sources */,
