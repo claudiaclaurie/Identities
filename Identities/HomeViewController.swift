@@ -26,7 +26,7 @@ class HomeViewController: UIViewController {
         
         avPlayer = AVPlayer(url: theURL!)
         avPlayerLayer = AVPlayerLayer(player: avPlayer)
-        avPlayerLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
+        avPlayerLayer.videoGravity = AVLayerVideoGravity.resizeAspect
         
         avPlayer.volume = 0
         avPlayer.actionAtItemEnd = .none
