@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5B5BDD0C1EF1B26E00EBFEE0 /* myImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BDD0B1EF1B26E00EBFEE0 /* myImage.jpg */; };
-		5B5BDD0E1EF1C99700EBFEE0 /* asia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BDD0D1EF1C99700EBFEE0 /* asia.jpg */; };
 		5B5BDD101EF1DBEA00EBFEE0 /* body.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BDD0F1EF1DBEA00EBFEE0 /* body.strings */; };
 		5B5BDD121EF2F52600EBFEE0 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD111EF2F52600EBFEE0 /* PageViewController.swift */; };
 		5B5BDD131EF2F52600EBFEE0 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD111EF2F52600EBFEE0 /* PageViewController.swift */; };
@@ -25,6 +24,7 @@
 		5B5BDD221EF2F66D00EBFEE0 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD211EF2F66D00EBFEE0 /* ViewController4.swift */; };
 		5B5BDD231EF2F66D00EBFEE0 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD211EF2F66D00EBFEE0 /* ViewController4.swift */; };
 		5B5BDD241EF2F66D00EBFEE0 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD211EF2F66D00EBFEE0 /* ViewController4.swift */; };
+		5B8A6A4C1EFD75F300F69B43 /* asia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A6A4B1EFD75D800F69B43 /* asia.jpg */; };
 		5BAF44231EEC8A60007ACBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF44221EEC8A60007ACBCB /* AppDelegate.swift */; };
 		5BAF44251EEC8A60007ACBCB /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF44241EEC8A60007ACBCB /* ContentViewController.swift */; };
 		5BAF442A1EEC8A60007ACBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAF44291EEC8A60007ACBCB /* Assets.xcassets */; };
@@ -60,13 +60,13 @@
 
 /* Begin PBXFileReference section */
 		5B5BDD0B1EF1B26E00EBFEE0 /* myImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myImage.jpg; path = ../../../Downloads/myImage.jpg; sourceTree = "<group>"; };
-		5B5BDD0D1EF1C99700EBFEE0 /* asia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = asia.jpg; path = ../../../Downloads/asia.jpg; sourceTree = "<group>"; };
 		5B5BDD0F1EF1DBEA00EBFEE0 /* body.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = body.strings; sourceTree = "<group>"; };
 		5B5BDD111EF2F52600EBFEE0 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageViewController.swift; path = ../../pageViewBlog/pageViewBlog/PageViewController.swift; sourceTree = "<group>"; };
 		5B5BDD151EF2F53100EBFEE0 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController1.swift; path = ../../pageViewBlog/pageViewBlog/ViewController1.swift; sourceTree = "<group>"; };
 		5B5BDD191EF2F53800EBFEE0 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		5B5BDD1D1EF2F53D00EBFEE0 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		5B5BDD211EF2F66D00EBFEE0 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		5B8A6A4B1EFD75D800F69B43 /* asia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asia.jpg; sourceTree = "<group>"; };
 		5BAF441F1EEC8A60007ACBCB /* Identities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Identities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAF44221EEC8A60007ACBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BAF44241EEC8A60007ACBCB /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
@@ -173,8 +173,8 @@
 				5BAF44291EEC8A60007ACBCB /* Assets.xcassets */,
 				5B5BDD0B1EF1B26E00EBFEE0 /* myImage.jpg */,
 				5BE6C2EA1EECA17A00915313 /* hannah.mp4 */,
+				5B8A6A4B1EFD75D800F69B43 /* asia.jpg */,
 				5B5BDD0F1EF1DBEA00EBFEE0 /* body.strings */,
-				5B5BDD0D1EF1C99700EBFEE0 /* asia.jpg */,
 				5BAF442E1EEC8A60007ACBCB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -289,11 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B5BDD0C1EF1B26E00EBFEE0 /* myImage.jpg in Resources */,
-				5B5BDD0E1EF1C99700EBFEE0 /* asia.jpg in Resources */,
+				5BAF442A1EEC8A60007ACBCB /* Assets.xcassets in Resources */,
 				5B5BDD101EF1DBEA00EBFEE0 /* body.strings in Resources */,
+				5B8A6A4C1EFD75F300F69B43 /* asia.jpg in Resources */,
 				5BE6C2EB1EECA27900915313 /* hannah.mp4 in Resources */,
 				5BAF442D1EEC8A60007ACBCB /* LaunchScreen.storyboard in Resources */,
-				5BAF442A1EEC8A60007ACBCB /* Assets.xcassets in Resources */,
 				5BE6C2F21EECD22900915313 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
