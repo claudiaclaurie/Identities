@@ -40,19 +40,19 @@ class HomeViewController: UIViewController {
                                                name: NSNotification.Name.AVPlayerItemDidPlayToEndTime,
                                                object: avPlayer.currentItem)
         
-        
-        
-        
         self.enterButton.layer.cornerRadius = 6
         // Add buttons to the screen.
         self.view.addSubview(self.enterButton)
-             //@objc     // Possition the buttons.
-                self.enterButton.frame = CGRect(x:view.bounds.width / 2 - 115, y:view.bounds.width / 2 + 300, width:225, height:50)
        // womensButton.frame =  CGRectMake(view.bounds.width / 2 - 115 , view.bounds.width / 2, 225, 50)
         // Button actions.
         self.enterButton.addTarget(self, action: #selector(enterButtonPressed), for: .touchUpInside)
         //self.womensButton.addTarget(self, action: #selector(SGViewController.womensButtonPressed), forControlEvents: UIControlEvents.TouchUpInside)
+
+    }
+
+    override func viewDidLayoutSubviews() {
         // Button styles.
+        self.enterButton.frame = CGRect(x:view.bounds.width / 2 - 115, y:view.bounds.width / 2 + 300, width:225, height:50)
         //        self.mensButton.backgroundColor = UIColor.lightGrayColor()
         self.enterButton.backgroundColor = UIColor.lightGray
         //        self.mensButton.layer.borderWidth = 3.0
@@ -60,16 +60,16 @@ class HomeViewController: UIViewController {
         let mauve = UIColor(red: 229/255, green: 225/255, blue: 239/255, alpha: 1.0)
         //        self.mensButton.layer.borderColor = mauve.CGColor
         self.enterButton.layer.borderColor = mauve.cgColor
-        
+
         //        self.mensButton.setTitle("Menswear", forState: UIControlState.Normal)
         //        self.mensButton.titleLabel?.font = UIFont(name: "HelveticaNeue-Thin", size: 25)
         self.enterButton.titleLabel?.font = UIFont(name: "HelveticaNeue-Thin", size: 25)
         self.enterButton.setTitle("ENTER", for: UIControlState.normal)
     }
-    
-    func playerItemDidReachEnd(notification: Notification) {
+
+    @objc func playerItemDidReachEnd(notification: Notification) {
         let p: AVPlayerItem = notification.object as! AVPlayerItem
-        p.seek(to: kCMTimeZero)
+        p.seek(to: kCMTimeZero, completionHandler: nil)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -80,15 +80,12 @@ class HomeViewController: UIViewController {
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
+        NotificationCenter.default.removeObserver(self, forKeyPath: NSNotification.Name.AVPlayerItemDidPlayToEndTime.rawValue)
         avPlayer.pause()
         paused = true
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    func enterButtonPressed() {
+
+    @objc func enterButtonPressed() {
         present(PageViewController(), animated: true, completion: nil)
     }
     

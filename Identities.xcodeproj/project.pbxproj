@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B5BDD0C1EF1B26E00EBFEE0 /* myImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BDD0B1EF1B26E00EBFEE0 /* myImage.jpg */; };
 		5B5BDD101EF1DBEA00EBFEE0 /* body.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BDD0F1EF1DBEA00EBFEE0 /* body.strings */; };
 		5B5BDD1A1EF2F53800EBFEE0 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD191EF2F53800EBFEE0 /* ViewController2.swift */; };
 		5B5BDD1B1EF2F53800EBFEE0 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD191EF2F53800EBFEE0 /* ViewController2.swift */; };
@@ -55,7 +54,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B5BDD0B1EF1B26E00EBFEE0 /* myImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myImage.jpg; path = ../../../Downloads/myImage.jpg; sourceTree = "<group>"; };
 		5B5BDD0F1EF1DBEA00EBFEE0 /* body.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = body.strings; sourceTree = "<group>"; };
 		5B5BDD191EF2F53800EBFEE0 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		5B5BDD1D1EF2F53D00EBFEE0 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
@@ -129,8 +127,9 @@
 		5BAF44211EEC8A60007ACBCB /* Identities */ = {
 			isa = PBXGroup;
 			children = (
-				5BAF44241EEC8A60007ACBCB /* ContentViewController.swift */,
+				5BAF44221EEC8A60007ACBCB /* AppDelegate.swift */,
 				5BE6C2E61EEC8E3E00915313 /* HomeViewController.swift */,
+				5BAF44241EEC8A60007ACBCB /* ContentViewController.swift */,
 				5BE6C2F71EEE155200915313 /* PageCollectionViewController.swift */,
 				C81629A51EFD2B3D004000B3 /* PageViewController.swift */,
 				C81629A71EFD2B4A004000B3 /* ViewController1.swift */,
@@ -165,9 +164,7 @@
 		5BAF44501EEC8A83007ACBCB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5BAF44221EEC8A60007ACBCB /* AppDelegate.swift */,
 				5BAF44291EEC8A60007ACBCB /* Assets.xcassets */,
-				5B5BDD0B1EF1B26E00EBFEE0 /* myImage.jpg */,
 				5BE6C2EA1EECA17A00915313 /* hannah.mp4 */,
 				5B8A6A4B1EFD75D800F69B43 /* asia.jpg */,
 				5B5BDD0F1EF1DBEA00EBFEE0 /* body.strings */,
@@ -284,7 +281,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B5BDD0C1EF1B26E00EBFEE0 /* myImage.jpg in Resources */,
 				5BAF442A1EEC8A60007ACBCB /* Assets.xcassets in Resources */,
 				5B5BDD101EF1DBEA00EBFEE0 /* body.strings in Resources */,
 				5B8A6A4C1EFD75F300F69B43 /* asia.jpg in Resources */,
