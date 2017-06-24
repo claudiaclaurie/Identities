@@ -25,8 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = navigationController
         //setting the initial viewController as UINavigationController
         self.window?.makeKeyAndVisible()
-        
-        //        let navBar = UINavigationBar(frame: CGRect(x: 0, y: 0, width: 320, height: 44))
         navigationController.navigationBar.backgroundColor = UIColor.white
         //navigationController.navigationBar.barTintColor = UIColor(patternImage: UIImage(named: "gradient.png")!)
         //        navigationController.navigationBar.backIndicatorImage = UIImage(named: "gradient.png")
@@ -46,9 +44,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //make the navigation bar a subview of the current viewcontroller
         //        self.inputView?.addSubview(navBar)
-        func Btn_Clicked(sender: UIBarButtonItem) {
-            //do something
-        }
         return true
     }
 
