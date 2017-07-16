@@ -18,6 +18,15 @@
 		5B5BDD231EF2F66D00EBFEE0 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD211EF2F66D00EBFEE0 /* ViewController4.swift */; };
 		5B5BDD241EF2F66D00EBFEE0 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BDD211EF2F66D00EBFEE0 /* ViewController4.swift */; };
 		5B8A6A4C1EFD75F300F69B43 /* asia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A6A4B1EFD75D800F69B43 /* asia.jpg */; };
+		5B8A6A501F1AC65400F69B43 /* ivan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A6A4F1F1AC64300F69B43 /* ivan.jpg */; };
+		5B8A6A521F1ACAE500F69B43 /* makeup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A6A511F1ACADA00F69B43 /* makeup.jpg */; };
+		5B8A6A541F1ACCEC00F69B43 /* claudia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A6A531F1ACCE100F69B43 /* claudia.jpg */; };
+		5B8A6A5A1F1BF11200F69B43 /* madison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A6A551F1BEFAD00F69B43 /* madison.jpg */; };
+		5B8A6A5B1F1BF11200F69B43 /* kimi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A6A561F1BF0F500F69B43 /* kimi.jpg */; };
+		5B8A6A5C1F1BF11200F69B43 /* adesola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A6A581F1BF0FD00F69B43 /* adesola.jpg */; };
+		5B8A6A5D1F1BF11200F69B43 /* hunterandmadeline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A6A591F1BF10200F69B43 /* hunterandmadeline.jpg */; };
+		5B8A6A5F1F1C026A00F69B43 /* maia.png in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A6A5E1F1C024C00F69B43 /* maia.png */; };
+		5B8A6A601F1C027B00F69B43 /* maia.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A6A5E1F1C024C00F69B43 /* maia.png */; };
 		5BAF44231EEC8A60007ACBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF44221EEC8A60007ACBCB /* AppDelegate.swift */; };
 		5BAF44251EEC8A60007ACBCB /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF44241EEC8A60007ACBCB /* ContentViewController.swift */; };
 		5BAF442A1EEC8A60007ACBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAF44291EEC8A60007ACBCB /* Assets.xcassets */; };
@@ -58,6 +67,15 @@
 		5B5BDD1D1EF2F53D00EBFEE0 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		5B5BDD211EF2F66D00EBFEE0 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		5B8A6A4B1EFD75D800F69B43 /* asia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asia.jpg; sourceTree = "<group>"; };
+		5B8A6A4F1F1AC64300F69B43 /* ivan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ivan.jpg; sourceTree = "<group>"; };
+		5B8A6A511F1ACADA00F69B43 /* makeup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = makeup.jpg; sourceTree = "<group>"; };
+		5B8A6A531F1ACCE100F69B43 /* claudia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = claudia.jpg; sourceTree = "<group>"; };
+		5B8A6A551F1BEFAD00F69B43 /* madison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = madison.jpg; sourceTree = "<group>"; };
+		5B8A6A561F1BF0F500F69B43 /* kimi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimi.jpg; sourceTree = "<group>"; };
+		5B8A6A571F1BF0FA00F69B43 /* makeup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = makeup.jpg; sourceTree = "<group>"; };
+		5B8A6A581F1BF0FD00F69B43 /* adesola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adesola.jpg; sourceTree = "<group>"; };
+		5B8A6A591F1BF10200F69B43 /* hunterandmadeline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hunterandmadeline.jpg; sourceTree = "<group>"; };
+		5B8A6A5E1F1C024C00F69B43 /* maia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maia.png; sourceTree = "<group>"; };
 		5BAF441F1EEC8A60007ACBCB /* Identities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Identities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAF44221EEC8A60007ACBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BAF44241EEC8A60007ACBCB /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +182,15 @@
 				5BAF44291EEC8A60007ACBCB /* Assets.xcassets */,
 				5BE6C2EA1EECA17A00915313 /* hannah.mp4 */,
 				5B8A6A4B1EFD75D800F69B43 /* asia.jpg */,
+				5B8A6A4F1F1AC64300F69B43 /* ivan.jpg */,
+				5B8A6A511F1ACADA00F69B43 /* makeup.jpg */,
+				5B8A6A531F1ACCE100F69B43 /* claudia.jpg */,
+				5B8A6A551F1BEFAD00F69B43 /* madison.jpg */,
+				5B8A6A561F1BF0F500F69B43 /* kimi.jpg */,
+				5B8A6A571F1BF0FA00F69B43 /* makeup.jpg */,
+				5B8A6A581F1BF0FD00F69B43 /* adesola.jpg */,
+				5B8A6A591F1BF10200F69B43 /* hunterandmadeline.jpg */,
+				5B8A6A5E1F1C024C00F69B43 /* maia.png */,
 				5B5BDD0F1EF1DBEA00EBFEE0 /* body.strings */,
 				5BAF442E1EEC8A60007ACBCB /* Info.plist */,
 			);
@@ -278,9 +305,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8A6A601F1C027B00F69B43 /* maia.png in Resources */,
+				5B8A6A5A1F1BF11200F69B43 /* madison.jpg in Resources */,
+				5B8A6A5B1F1BF11200F69B43 /* kimi.jpg in Resources */,
+				5B8A6A521F1ACAE500F69B43 /* makeup.jpg in Resources */,
+				5B8A6A5C1F1BF11200F69B43 /* adesola.jpg in Resources */,
+				5B8A6A4C1EFD75F300F69B43 /* asia.jpg in Resources */,
+				5B8A6A5D1F1BF11200F69B43 /* hunterandmadeline.jpg in Resources */,
+				5B8A6A541F1ACCEC00F69B43 /* claudia.jpg in Resources */,
+				5B8A6A501F1AC65400F69B43 /* ivan.jpg in Resources */,
 				5BAF442A1EEC8A60007ACBCB /* Assets.xcassets in Resources */,
 				5B5BDD101EF1DBEA00EBFEE0 /* body.strings in Resources */,
-				5B8A6A4C1EFD75F300F69B43 /* asia.jpg in Resources */,
 				5BE6C2EB1EECA27900915313 /* hannah.mp4 in Resources */,
 				5BAF442D1EEC8A60007ACBCB /* LaunchScreen.storyboard in Resources */,
 			);
@@ -307,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8A6A5F1F1C026A00F69B43 /* maia.png in Sources */,
 				5BE6C2F91EEE155200915313 /* PageCollectionViewController.swift in Sources */,
 				C81629A61EFD2B3D004000B3 /* PageViewController.swift in Sources */,
 				5B5BDD1A1EF2F53800EBFEE0 /* ViewController2.swift in Sources */,
