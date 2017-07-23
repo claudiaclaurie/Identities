@@ -12,9 +12,9 @@ import UIKit
 class ViewController4: UIViewController {
     
     var scrollView = UIScrollView()
-    var imageView1 = UIImageView(image: UIImage(named: "madison.jpg")!)
-    var imageView2 = UIImageView(image: UIImage(named: "adesola.jpg")!)
-    var imageView3 = UIImageView(image: UIImage(named: "kimi.jpg")!)
+    var imageView1 = UIImageView(image: UIImage(named: "board.jpg")!)
+    var imageView2 = UIImageView(image: UIImage(named: "sam.jpg")!)
+    var imageView3 = UIImageView(image: UIImage(named: "2015.png")!)
     
     let TitleLabel = UILabel()
     let CaptionLabel1 = UILabel()
@@ -84,12 +84,12 @@ class ViewController4: UIViewController {
         //Position subViews on screen.
         self.scrollView.frame = view.bounds
         self.TitleLabel.frame = CGRect(x:0,y:0,width:self.view.bounds.width, height:30)
-        self.imageView1.frame = CGRect(x:0, y:40, width: self.view.bounds.width, height: 500)
-        self.CaptionLabel1.frame = CGRect(x:4, y: 540, width: self.view.bounds.width, height: 30)
-        self.imageView2.frame = CGRect(x:0, y:570, width: self.view.bounds.width, height: 500)
-        self.CaptionLabel2.frame = CGRect(x: 4, y: 1070, width: self.view.bounds.width, height: 30)
-        self.imageView3.frame = CGRect(x:0, y:1100, width: self.view.bounds.width, height: 500)
-        self.CaptionLabel3.frame = CGRect(x:4, y: 1600, width: self.view.bounds.width, height:30)
+        self.imageView1.frame = CGRect(x:0, y:40, width: self.view.bounds.width, height: 400)
+        self.CaptionLabel1.frame = CGRect(x:4, y: 440, width: self.view.bounds.width, height: 30)
+        self.imageView2.frame = CGRect(x:0, y:470, width: self.view.bounds.width, height: 400)
+        self.CaptionLabel2.frame = CGRect(x: 4, y: 870, width: self.view.bounds.width, height: 30)
+        self.imageView3.frame = CGRect(x:0, y:900, width: self.view.bounds.width, height: 400)
+        self.CaptionLabel3.frame = CGRect(x:4, y: 1300, width: self.view.bounds.width, height:30)
         
         //Sizing the content that shows up on the window of the scrollview- should be size of all the content you want to scroll
         //Moving paper behind window

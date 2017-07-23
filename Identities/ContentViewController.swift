@@ -89,7 +89,7 @@ class ContentViewController: UIViewController {
         //self.loadContent(contentName)
     }
     
-    func sizeTextView(textView:UITextView) {
+    func sizeTextView(_ textView:UITextView) {
         let newSize = textView.sizeThatFits(CGSize(width: self.view.bounds.width, height: CGFloat.greatestFiniteMagnitude))
         var newFrame = textView.frame
         newFrame.size = CGSize(width: max(newSize.width, self.view.bounds.width), height: newSize.height)

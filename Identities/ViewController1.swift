@@ -12,14 +12,18 @@ class ViewController1: UIViewController{
     let CaptionLabel3 = UILabel()
     let CaptionLabel4 = UILabel()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         scrollView.backgroundColor = UIColor.black
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(tapped))
         
         //image 1
         imageView1.contentMode = .scaleAspectFill
         imageView1.clipsToBounds = true
+        imageView1.isUserInteractionEnabled = true;
+        imageView1.addGestureRecognizer(gesture)
         //image 2
         imageView2.contentMode = .scaleAspectFill
         imageView2.clipsToBounds = true
@@ -31,6 +35,7 @@ class ViewController1: UIViewController{
         imageView4.clipsToBounds = true
         
         self.view.backgroundColor = UIColor.yellow
+        
         
         // label 1
         TitleLabel.text = "Featured"
@@ -98,6 +103,10 @@ class ViewController1: UIViewController{
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @objc func tapped() {
+        present(FeaturedViewController(), animated: true, completion: nil)
     }
 }
 
